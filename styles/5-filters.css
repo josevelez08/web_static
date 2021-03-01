@@ -7,6 +7,7 @@
     border: 1px solid #DDDDDD ;
     display: flex;
     align-items: center;
+    position: relative;
     
 }
 .locations{
@@ -14,25 +15,23 @@
     height: 100%;
     width: 25%;
     display: flex;
-    position: relative;
     border-right: 1px solid #DDDDDD;
-    align-items: center;
+    flex-direction: column;
 }
 .amenities{
+    margin-left: 20px;
     height: 100%;
     width: 25%;
     display: flex;
-    position: relative;
-    align-items: center;
+    flex-direction: column;
 }
 h3{
-    position: relative;
-    height: 48px;
-    font-weight: 600;
+    margin: 10px 0 5px 0px;
+    font-weight: bold;
 }
 h4{
-    position: relative;
     font-size: 14px;
+    margin: 0;
 }
 button{
     font-size: 18px;
@@ -43,4 +42,8 @@ button{
     border-radius: 4px;
     right: 30px;
     position: absolute;
+}
+
+button:hover {
+    opacity: 0.9;
 }

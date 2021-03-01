@@ -20,3 +20,7 @@ button{
     right: 30px;
     position: absolute;
 }
+
+button:hover {
+    opacity: 0.9;
+}
